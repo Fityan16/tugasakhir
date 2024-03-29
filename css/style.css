@@ -248,6 +248,7 @@ body {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .contact .row form {
@@ -263,6 +264,7 @@ body {
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
+  border-radius: 0.5rem;
 }
 
 .contact .row form .input-group input {
@@ -281,6 +283,7 @@ body {
   color: #fff;
   background-color: var(--primary);
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 /* Footer */
