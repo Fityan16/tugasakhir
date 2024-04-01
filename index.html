@@ -26,7 +26,7 @@
   <body>
     <!-- navbar start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
+      <a href="#" class="navbar-logo">angkringan<span>wareg</span>.</a>
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
@@ -36,22 +36,28 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- search form end -->
     </nav>
     <!-- navbar end -->
 
     <!-- Hero Section start  -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari Nikmati Secangkir <span>Kopi</span>.</h1>
+        <h1>Mari datang dan nikmati menu <span>Angkringan</span> kami.</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
-          aliquid!
+          <!-- lorem  -->
         </p>
-        <a href="#" class="cta">Beli Sekarang!</a>
+        <a href="#contact" class="cta">Pesan Sekarang!</a>
       </main>
     </section>
     <!-- Hero Section end -->
@@ -66,16 +72,18 @@
         </div>
 
         <div class="content">
-          <h3>Kenapa Harus Memilih Kopi Kami?</h3>
+          <h3>Kenapa Harus Memilih Angkringan Kami?</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
-            aspernatur officia. Voluptates nulla at autem?
+            Angkringan kami menyediakan banyak menu dari yang kekinian maupun
+            tradisional, mulai dari Sego bakar, Sosis bakar, Aneka Gorengan,
+            dll.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
-            molestiae nisi pariatur voluptatibus eligendi eos dolorem facere
-            minima nesciunt.
+            Selain menyediakan menu yang bervariasi, tempat tempat disini banyak
+            spot foto yang Instagramable. Dan setiap malam minggu diadakan Live
+            Music!
           </p>
+          <p>Lebih lengkapnya Datang Sekarang Juga!</p>
         </div>
       </div>
     </section>
@@ -84,12 +92,34 @@
     <!-- menu Section start -->
     <section id="menu" class="menu">
       <h2>Menu <span>Kami</span></h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
-        dicta quam enim quae in quibusdam.
-      </p>
+      <p>Makanan dan Minuman</p>
 
       <div class="row">
+        <div class="menu-card">
+          <img src="img/m1.jpg" alt="menu1" class="menu-card-img" />
+          <h3 class="menu-card-title">Teh</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/m2.jpg" alt="menu1" class="menu-card-img" />
+          <h3 class="menu-card-title">Teh</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/m3.jpg" alt="menu1" class="menu-card-img" />
+          <h3 class="menu-card-title">Teh</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/m4.jpg" alt="menu1" class="menu-card-img" />
+          <h3 class="menu-card-title">Teh</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/m5.jpeg" alt="menu1" class="menu-card-img" />
+          <h3 class="menu-card-title">Teh</h3>
+          <p class="menu-card-price">IDR 10K</p>
+        </div>
         <div class="menu-card">
           <img src="img/m1.jpg" alt="menu1" class="menu-card-img" />
           <h3 class="menu-card-title">Teh</h3>
@@ -123,10 +153,7 @@
 
     <section id="contact" class="contact">
       <h2>Kontak <span>Kami</span></h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
-        dicta quam enim quae in quibusdam.
-      </p>
+      <p>Kontak Kami jika ingin pesann sesuatu ataupun Komplain sesuatu</p>
 
       <div class="row">
         <iframe
@@ -140,15 +167,19 @@
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama" />
+            <input type="text" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="email" />
+            <input type="text" placeholder="Menu Pesanan" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="no hp" />
+            <input type="text" placeholder="No Hp" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Metode Pembayaran" />
           </div>
           <button type="submit" class="btn">Kirim pesan</button>
         </form>
@@ -161,9 +192,9 @@
 
     <footer>
       <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="https://www.instagram.com/youuchz/" target="_blank"><i data-feather="instagram"></i></a>
+        <a href="https://www.instagram.com/iqbl_azy/" target="_blank"><i data-feather="instagram"></i></a>
+        <a href="https://www.instagram.com/habibbsuryaa/" target="_blank"><i data-feather="instagram"></i></a>
       </div>
 
       <div class="links">
@@ -175,9 +206,9 @@
 
       <div class="credit">
         <p>Created by</p>
-        <p><a href="">Fityan Abiyyu Razan</a>. | &copy; 2024</p>
-        <p><a href="">Mukhammad Iqbal A'zizi</a>. | &copy; 2024</p>
-        <p><a href="">Habib Surya Aji</a>. | &copy; 2024</p>
+        <p><a href="https://www.instagram.com/youuchz/" target="_blank">Fityan Abiyyu Razan</a>. | &copy; 2024</p>
+        <p><a href="https://www.instagram.com/iqbl_azy/" target="_blank">Mukhammad Iqbal A'zizi</a>. | &copy; 2024</p>
+        <p><a href="https://www.instagram.com/habibbsuryaa/" target="_blank">Habib Surya Aji</a>. | &copy; 2024</p>
       </div>
     </footer>
 
